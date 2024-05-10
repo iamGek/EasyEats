@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/crecipe_mapo"
+            android:background="@drawable/rounded_shape"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mapo Tofu"
+            android:fontFamily="@font/brownista_style"
+            android:textSize="50sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/recipeOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mapo tofu is said to have originated in Chengdu in the late 1800s. Ma translates to “pockmarks”, while po refers to an older woman. Together these reference the dish’s inventor, Mrs Chen, an elderly woman with smallpox scars."/>
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/ingredientsDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 block (about 14 ounces) firm tofu, diced into cubes\n2 Tablespoons Vegetable Oil \n2 cloves garlic, minced \n2 tablespoons fermented black beans, rinsed and minced\n2 tablespoons chili bean paste (doubanjiang)\n1 tablespoon soy sauce\n1 teaspoon sugar\n1/2 cup chicken or vegetable broth\n1 tablespoon cornstarch mixed with 2 tablespoons water (slurry)\n2 green onions, chopped\nSichuan peppercorns, to taste (optional)"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/procedure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Procedure"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/procedureDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Heat oil in a wok or skillet over medium heat. Add garlic, fermented black beans, and chili bean paste. Stir-fry until fragrant.\n\nStep 2:   Add diced tofu and stir gently to coat with the sauce.\n\nStep 3: Pour in soy sauce, sugar, and chicken broth. Simmer for 3-5 minutes.\n\nStep 4: Stir in the cornstarch slurry to thicken the sauce.\n\nStep 5: Garnish with chopped green onions and Sichuan peppercorns if desired. Serve hot with steamed rice."
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addToLikesButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add to Likes"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+            <!-- Where to Buy Button -->
+            <Button
+                android:id="@+id/whereToBuyButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Where to Buy"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arecipe_shakshuka"
+            android:background="@drawable/rounded_shape"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shakshuka"
+            android:fontFamily="@font/brownista_style"
+            android:textSize="50sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/recipeOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Originating in North Africa and now strongly associated with Israeli cuisine, shakshuka typically involves a sauce of tomatoes and red peppers. Ours is mildly spicy, full of flavor, and has perfectly runny eggs."/>
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/ingredientsDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 tbsp olive oil\n1 large onion, diced\n1 red bell pepper, seeded and diced\n3 garlic cloves, minced\n1 tsp ground cumin\n1 tsp paprika\n1/4 tsp cayenne pepper (adjust to taste)\n1 can (28 oz) whole peeled tomatoes, crushed by hand or diced\nSalt and pepper, to taste"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/procedure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Procedure"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/procedureDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1:  Heat olive oil in a large skillet over medium heat. Add diced onion and bell pepper. Sauté until softened, about 5 minutes. Add minced garlic, ground cumin, paprika, and cayenne pepper. Cook for another 1-2 minutes, stirring frequently.\n\nStep 2: Add the crushed tomatoes to the skillet, along with salt and pepper to taste. Simmer the sauce for 10-15 minutes, stirring occasionally, until it thickens slightly.\n\nStep 3: Using a spoon, create small wells in the sauce for the eggs. Crack the eggs into the wells. Cover the skillet and cook for 5-7 minutes, or until the eggs are cooked to your liking (for runny yolks, cook for less time).\n\nStep 4: Sprinkle chopped parsley or cilantro over the top. Optionally, crumble feta cheese or another cheese of your choice over the dish. Serve shakshuka hot, directly from the skillet, with crusty bread or pita on the side."
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addToLikesButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add to Likes"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+            <!-- Where to Buy Button -->
+            <Button
+                android:id="@+id/whereToBuyButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Where to Buy"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

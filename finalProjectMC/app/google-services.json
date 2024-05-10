@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "157893829041",
+    "firebase_url": "https://project-database-e43f2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "project-database-e43f2",
+    "storage_bucket": "project-database-e43f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157893829041:android:35e9319fe216b81046dd90",
+        "android_client_info": {
+          "package_name": "com.example.finalprojectmc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa5cG5LgWONAILklsdKvN-JGDEiEQCB3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

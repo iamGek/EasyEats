@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">finalProjectMC</string>
+    <string name="clickRegister">
+        Do not have an account? <a href=""> Register Here </a>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MAPS_API_KEY">AIzaSyDkyiX7g3MhHuVng-pWCYTbke-XuGKl19s</string>
+</resources>

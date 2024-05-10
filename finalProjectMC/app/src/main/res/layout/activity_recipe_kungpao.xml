@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/crecipe_kungpao"
+            android:background="@drawable/rounded_shape"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kung Pao"
+            android:fontFamily="@font/brownista_style"
+            android:textSize="50sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/recipeOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One of the popular dishes available at any Chinese restaurant is Kung Pao Chicken. While generally associated with Westerners and the “westernized” Chinese cuisine, story of its origin can still be traced back to China." />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/ingredientsDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 lb Boneless, Skinless Chicken Breasts or Thighs, cut into bite-sized pieces\n2 Tablespoons Vegetable Oil \n1/2 Cup Roasted Peanuts \n3-4 Dried Red Chilies, seeded and cut into halves\n3 Cloves Garlic, minced\n1 inch Piece of Ginger, minced\n2 green onions, chopped"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/Marinade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"
+            android:text="Marinade"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingredientsMarinade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 tablespoon soy sauce\n1 tablespoon Shaoxing Wine (or dry sherry)\n1 tablespoon Cornstarch"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/Sauce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sauce"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/ingredientsSauce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 tablespoons soy sauce\n1 tablespoon hoisin sauce\n1 tablespoon rice vinegar\n1 tablespoon sugar\n1 teaspoon cornstarch\n2 tablespoons water"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/procedure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Procedure"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/procedureDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Marinate the chicken pieces in soy sauce, Shaoxing wine, and cornstarch for about 20 minutes.\n\nStep 2:   In a small bowl, mix together all the sauce ingredients and set aside.\n\nStep 3: Heat oil in a wok or skillet over high heat. Add dried red chilies and stir-fry for a few seconds until fragrant.\n\nStep 4: Add minced garlic and ginger, then add the marinated chicken. Stir-fry until the chicken is cooked through.\n\nStep 5: Pour in the sauce and stir well until the chicken is evenly coated and the sauce thickens.\n\nStep 6: Add roasted peanuts and chopped green onions, toss everything together, and serve hot with steamed rice."
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addToLikesButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add to Likes"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+            <!-- Where to Buy Button -->
+            <Button
+                android:id="@+id/whereToBuyButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Where to Buy"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

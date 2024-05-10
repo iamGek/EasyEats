@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arecipe_artichokes"
+            android:background="@drawable/rounded_shape"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grilled Artichokes"
+            android:fontFamily="@font/brownista_style"
+            android:textSize="50sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/recipeOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artichokes have been cultivated in the Mediterranean region for centuries and are a staple in various Mediterranean cuisines, including Arab cuisine. The artichoke is believed to have originated in the Mediterranean region and spread to other parts of the world through trade and cultural exchange. In Arab cuisine, artichokes are often grilled, stuffed, or used in stews and salads, showcasing their versatility and delicious flavor." />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/ingredientsDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 large globe artichokes\n1/2 Cup Olive Oil \nJuice of 1 lemon \n3 Cloves Garlic, Minced\n1 Teaspoon Salt\n1/2 Teaspoon Black Pepper\n Fresh herbs (optional, such as Parsley or Mint)"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/procedure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Procedure"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/brownista_style"/>
+
+        <TextView
+            android:id="@+id/procedureDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Start by removing the tough outer leaves of the artichokes until you reach the softer, lighter-colored leaves.\n\nStep 2:  In a small bowl, whisk together olive oil, lemon juice, minced garlic, salt, and black pepper.\n\nStep 3: Grill for about 5-7 minutes on each side, or until they are tender and slightly charred.\n\nStep 4: Serve hot as an appetizer or side dish."
+            android:layout_marginBottom="16dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addToLikesButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add to Likes"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+            <!-- Where to Buy Button -->
+            <Button
+                android:id="@+id/whereToBuyButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Where to Buy"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

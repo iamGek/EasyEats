@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/recipe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/frecipe_adobo"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha="0.8"/>
+
+                <TextView
+                    android:id="@+id/textViewCentered1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Adobo"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp">
+
+                <ImageView
+                    android:id="@+id/recipe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/frecipe_sinigang"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha="0.8"/>
+
+                <TextView
+                    android:id="@+id/textViewCentered2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Sinigang"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/recipe3"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/crecipe_mapo"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha="0.8"/>
+
+                <TextView
+                    android:id="@+id/textViewCentered3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Mapo Tofu"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp">
+
+                <ImageView
+                    android:id="@+id/recipe4"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/irecipe_risotto"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha="0.8"/>
+
+                <TextView
+                    android:id="@+id/textViewCentered4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Risotto"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/recipe5"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/arecipe_artichokes"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha="0.8"/>
+
+                <TextView
+                    android:id="@+id/textViewCentered5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Artichokes"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp">
+
+                <ImageView
+                    android:id="@+id/recipe6"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/crecipe_kungpao"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha="0.8"/>
+
+                <TextView
+                    android:id="@+id/textViewCentered6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Kung Pao"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/recipe7"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/irecipe_caprese"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha=".8"/>
+
+                <!-- Centered TextView -->
+                <TextView
+                    android:id="@+id/textViewCentered7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Caprese Salad"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp">
+
+                <ImageView
+                    android:id="@+id/recipe8"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/arecipe_shakshuka"
+                    android:background="@drawable/rounded_shape"
+                    android:alpha=".8"/>
+
+                <TextView
+                    android:id="@+id/textViewCentered8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:alpha="10"
+                    android:text="Shakshuka"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/font_style"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
